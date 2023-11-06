@@ -231,7 +231,7 @@ arow.addEventListener("mouseleave",function(){
 let ct1= document.querySelector("#colon1");
 let ct2= document.querySelector("#colon2");
 document.addEventListener("scroll",function(){
-    if(window.pageYOffset>3300)
+    if(window.pageYOffset>2900)
     {
         ct1.style.transform="translate(50px,50px)"
         ct2.style.transform="translate(-50px,-50px)"
@@ -250,7 +250,7 @@ document.addEventListener("scroll",function(){
 
 
 document.addEventListener("scroll",function(){
-    if(window.pageYOffset>3510)
+    if(window.pageYOffset>3200)
     {
         q.style.transform="translate(0,-50px)"
         
@@ -376,6 +376,9 @@ scroller.addEventListener("mouseenter",function(){
 scroller.addEventListener("mouseleave",function(){
     scroller.style.color="black";
     
+})
+gsap.to("#page3 h2",{
+    color:"#96c11e",repeat:-1,duration:2
 })
 
   

@@ -22,6 +22,12 @@
         z-index: 99;
 
         }
+        #page3 h2{
+          font-size: 14px;
+          position: relative;
+          top: 20px;
+
+        }
     
         #nav h4{
             text-transform: uppercase;
@@ -297,7 +303,7 @@ flex-direction: column;
 }
 #elm1
 {
-  height: 650px;
+  height: 450px;
   width: 240px;
 border-radius: 30px;
 z-index: 90;
@@ -310,7 +316,7 @@ background-size: 100% 100%;
 
 #elm2
 {
-  height: 650px;
+  height: 450px;
   width: 240px;
 border-radius: 30px;
 background-image: url("/card2.webp");
@@ -321,7 +327,7 @@ z-index: 90;
 }
 #elm3
 {
-  height: 650px;
+  height: 450px;
   width: 240px;
 border-radius: 30px;
 z-index: 90;
@@ -1001,8 +1007,8 @@ top: 50px;
 #arrow
 {
   position: relative;
-  top: 120px;
-  right:660px;
+  top: 100px;
+  right:650px;
   z-index: 99;
   
 
